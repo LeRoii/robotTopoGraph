@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Profile FormatVersion="1">
+    <Tools>
+        <Tool Filename="jam" AllowIntercept="true">
+        	<Description>Jamplus build system</Description>
+        </Tool>
+        <Tool Filename="mayabatch.exe" AllowRemote="true" OutputFileMasks="*.dae" DeriveCaptionFrom="lastparam" Timeout="40" />
+        <Tool Filename="meshbuilder_*.exe" AllowRemote="false" OutputFileMasks="*.mesh" DeriveCaptionFrom="lastparam" Timeout="10" />
+        <Tool Filename="texbuilder_*.exe" AllowRemote="true" OutputFileMasks="*.tex" DeriveCaptionFrom="lastparam" />
+        <Tool Filename="shaderbuilder_*.exe" AllowRemote="true" DeriveCaptionFrom="lastparam" />
+    </Tools>
+    <nodes>
+        <node id="node0" property_num="0"><location x="1.6" y="1.9" /></node>
+        <node id="node1" property_num="0"><location x="1.4" y="1.4" /></node>
+        <node id="node2" property_num="0"><location x="1.0" y="1.6" /></node>
+        <node id="node3" property_num="0"><location x="0.4" y="1.0" /></node>
+        <node id="node4" property_num="0"><location x="1.0" y="0.4" /></node>
+        <node id="node5" property_num="1"><location x="1.6" y="0.6" />
+            <properties>
+                <property>
+                <name>DistNearest</name>
+                <value>0.2</value>
+                <typename>float</typename>
+                <description>Distancexxxxxx</discription>
+                </property>
+            </properties>
+        </node>
+    </nodes>
+</Profile>

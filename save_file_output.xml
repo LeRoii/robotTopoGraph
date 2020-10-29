@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<topological_map id="TopologicalMap">
+	<coordinate_system />
+	<offset offset_x="0.0" offset_y="0.0" offset_z="0.0" theta="0.0" />
+	<nodes>
+		<node id="node0" property_num="0">
+			<location x="-2.427" y="-26.608" z="-2.526" />
+		</node>
+		<node id="node1" property_num="0">
+			<location x="2.121" y="65.592" z="-0.312" />
+		</node>
+		<node id="node2" property_num="0">
+			<location x="-54.646" y="69.987" z="0.694" />
+		</node>
+		<node id="node3" property_num="1">
+			<location x="-55.070" y="59.662" z="1.845" />
+			<properties>
+				<property>
+					<name>semantic</name>
+					<value>1</value>
+					<typename>int</typename>
+					<description>semantic node 1--building </description>
+				</property>
+			</properties>
+		</node>
+		<node id="node4" property_num="0">
+			<location x="-99.752" y="73.482" z="1.463" />
+		</node>
+		<node id="node5" property_num="0">
+			<location x="-102.996" y="25.042" z="-0.044" />
+		</node>
+		<node id="node6" property_num="1">
+			<location x="-92.154" y="24.981" z="1.209" />
+			<properties>
+				<property>
+					<name>semantic</name>
+					<value>1</value>
+					<typename>int</typename>
+					<description>semantic node 1--building </description>
+				</property>
+			</properties>
+		</node>
+		<node id="node7" property_num="0">
+			<location x="-106.101" y="-21.063" z="-1.884" />
+		</node>
+		<node id="node8" property_num="0">
+			<location x="-61.535" y="-24.664" z="-2.637" />
+		</node>
+		<node id="node9" property_num="1">
+			<location x="-61.143" y="-14.540" z="-0.785" />
+			<properties>
+				<property>
+					<name>semantic</name>
+					<value>1</value>
+					<typename>int</typename>
+					<description>semantic node 1--building </description>
+				</property>
+			</properties>
+		</node>
+		<node id="node10" property_num="0">
+			<location x="-43.073" y="-26.625" z="-2.789" />
+		</node>
+		<node id="node11" property_num="0">
+			<location x="36.480" y="-28.859" z="-6.243" />
+		</node>
+		<node id="node12" property_num="0">
+			<location x="34.367" y="-65.992" z="-7.488" />
+		</node>
+		<node id="node13" property_num="0">
+			<location x="25.395" y="-110.536" z="-8.470" />
+		</node>
+		<node id="node14" property_num="0">
+			<location x="21.565" y="-160.833" z="-9.661" />
+		</node>
+		<node id="node15" property_num="0">
+			<location x="15.976" y="-250.297" z="-12.768" />
+		</node>
+		<node id="node16" property_num="0">
+			<location x="-20.994" y="-248.499" z="-11.853" />
+		</node>
+		<node id="node17" property_num="0">
+			<location x="-59.053" y="-244.843" z="-11.087" />
+		</node>
+		<node id="node18" property_num="0">
+			<location x="-58.018" y="-229.325" z="-10.459" />
+		</node>
+		<node id="node19" property_num="0">
+			<location x="-50.167" y="-126.587" z="-6.005" />
+		</node>
+		<node id="node20" property_num="0">
+			<location x="-44.762" y="-52.015" z="-3.834" />
+		</node>
+		<node id="node21" property_num="0">
+			<location x="6.843" y="65.249" z="-0.382" />
+		</node>
+		<node id="node22" property_num="0">
+			<location x="7.520" y="78.770" z="0.047" />
+		</node>
+		<node id="node23" property_num="0">
+			<location x="-99.111" y="84.239" z="1.850" />
+		</node>
+	</nodes>
+	<edges>
+		<edge id="edge0" edge_level="0" edge_node1="node0" edge_node2="node1" />
+		<edge id="edge1" edge_level="0" edge_node1="node0" edge_node2="node10" />
+		<edge id="edge2" edge_level="0" edge_node1="node0" edge_node2="node11" />
+		<edge id="edge3" edge_level="0" edge_node1="node1" edge_node2="node2" />
+		<edge id="edge4" edge_level="0" edge_node1="node1" edge_node2="node21" />
+		<edge id="edge5" edge_level="0" edge_node1="node2" edge_node2="node3" />
+		<edge id="edge6" edge_level="0" edge_node1="node2" edge_node2="node4" />
+		<edge id="edge7" edge_level="0" edge_node1="node4" edge_node2="node23" />
+		<edge id="edge8" edge_level="0" edge_node1="node4" edge_node2="node5" />
+		<edge id="edge9" edge_level="0" edge_node1="node5" edge_node2="node6" />
+		<edge id="edge10" edge_level="0" edge_node1="node5" edge_node2="node7" />
+		<edge id="edge11" edge_level="0" edge_node1="node7" edge_node2="node8" />
+		<edge id="edge12" edge_level="0" edge_node1="node8" edge_node2="node9" />
+		<edge id="edge13" edge_level="0" edge_node1="node8" edge_node2="node10" />
+		<edge id="edge14" edge_level="0" edge_node1="node10" edge_node2="node20" />
+		<edge id="edge15" edge_level="0" edge_node1="node11" edge_node2="node12" />
+		<edge id="edge16" edge_level="0" edge_node1="node12" edge_node2="node13" />
+		<edge id="edge17" edge_level="0" edge_node1="node13" edge_node2="node14" />
+		<edge id="edge18" edge_level="0" edge_node1="node14" edge_node2="node15" />
+		<edge id="edge19" edge_level="0" edge_node1="node15" edge_node2="node16" />
+		<edge id="edge20" edge_level="0" edge_node1="node16" edge_node2="node17" />
+		<edge id="edge21" edge_level="0" edge_node1="node17" edge_node2="node18" />
+		<edge id="edge22" edge_level="0" edge_node1="node18" edge_node2="node19" />
+		<edge id="edge23" edge_level="0" edge_node1="node19" edge_node2="node20" />
+		<edge id="edge24" edge_level="0" edge_node1="node21" edge_node2="node22" />
+		<edge id="edge25" edge_level="0" edge_node1="node22" edge_node2="node23" />
+	</edges>
+</topological_map>
